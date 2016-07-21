@@ -1,0 +1,23 @@
+{
+  "name": "koenster/php-voys",
+  "description": "A package to make outgoing calls with the API of voys.nl.",
+  "keywords": ["voys", "click 2 dial", "phone"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.9",
+    "curl/curl": "^1.4"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "classmap": [
+
+    ],
+    "psr-4": {
+      "koenster\\Voys\\": "src/"
+    }
+  }
+}
